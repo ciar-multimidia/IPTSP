@@ -302,7 +302,11 @@ font-weight: 300;
 font-size: 17px;
 padding-bottom: 12px;
 line-height: 25px;
-    
+}
+
+.areaconteudo a {
+    text-decoration: none;
+    color: #4e1f5c;
 }
 
 blockquote {
@@ -532,6 +536,10 @@ display: block;
 padding-top: 30px;
 }
 
+footer .footerinicio a {
+    text-decoration: none;
+    color: #575757;
+}
 
 
  
