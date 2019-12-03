@@ -259,6 +259,7 @@ position: relative;
 
 .areaconteudo article{
 width: 700px;	
+text-align: justify;
 }
 
 .areaconteudo img {
@@ -268,7 +269,8 @@ position: left;
 .areaconteudo h1, .areaconteudo h2 {
 font-weight: 500;
 color: #000; 
-padding-top: 40px;   
+padding-top: 40px;  
+text-align: left; 
 }
 
 .areaconteudo h1 {
@@ -288,13 +290,13 @@ font-size: 20px;
 font-weight: 500;
 padding-top: 30px;
 color: #4e1f5c;
+text-align: left;
 }
 
 .areaconteudo p {
 font-weight: 300;
 line-height: 27px;
 font-size: 17px;
-text-align: left;
 }
 
 .areaconteudo li {
