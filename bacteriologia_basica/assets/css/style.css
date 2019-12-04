@@ -497,6 +497,7 @@ font-family: Roboto-Regular;
 text-transform: uppercase;
 letter-spacing: 0.5px;
 font-size: 18px;
+position: relative;
 }
 
 footer a {
@@ -512,6 +513,18 @@ padding-right: 40px;
 float: right;
 padding-left: 40px; 
 }
+
+.navegacao {
+    color: white;
+    position: absolute;
+    top: 50%; left: 50%;
+    display: inline-block;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
 
 /*footer do inicio*/
 .footerinicio {
