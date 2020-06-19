@@ -1,10 +1,10 @@
-/*BOX SIZING FIX*/
+ /*BOX SIZING FIX*/
 html {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,*:before,*:after {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 @font-face {
@@ -125,7 +125,7 @@ left: 0;
 }
 
 #governo p {
-margin-top: 10px;	
+margin-top: 10px;   
 }
 
 
@@ -182,7 +182,7 @@ letter-spacing: 0.1rem;
 .iniciar a {
 background-color: #fff;
 display: inline-block;
-color: #490061;
+color: #002d45;
 font-weight: 500;
 padding: 20px;
 text-transform: uppercase;
@@ -258,45 +258,43 @@ position: relative;
 }
 
 .areaconteudo article{
-width: 700px;	
-text-align: justify;
+width: 700px;   
 }
 
 .areaconteudo img {
-position: left;	
+position: left; 
 }
 
 .areaconteudo h1, .areaconteudo h2 {
 font-weight: 500;
 color: #000; 
-padding-top: 40px;  
-text-align: left; 
+padding-top: 40px;   
 }
 
 .areaconteudo h1 {
 font-size: 30px;  
-color: #4e1f5c;
+color: #00507a;
 }
 
 .areaconteudo h2{
 font-size: 25px;
 font-weight: 500;
 padding-top: 30px;
-color: #4e1f5c;
+color: #00507a;
 }
 
 .areaconteudo h3 {
 font-size: 20px;
 font-weight: 500;
 padding-top: 30px;
-color: #4e1f5c;
-text-align: left;
+color: #00507a;
 }
 
 .areaconteudo p {
 font-weight: 300;
 line-height: 27px;
 font-size: 17px;
+text-align: left;
 }
 
 .areaconteudo li {
@@ -430,7 +428,7 @@ max-height: 300px;
 table {
 border-collapse: collapse;
 width: 100%;
-margin: 40px 0;	
+margin: 40px 0; 
 color: #000;
 }
 
@@ -456,7 +454,7 @@ padding: 10px;
 }
 
 .ultimalinha td {
-border-bottom: 4px solid #4e1f5c;	
+border-bottom: 4px solid #4e1f5c;   
 }
 
 table caption {
@@ -465,7 +463,7 @@ text-align: left;
 letter-spacing: 0.5px;
 text-transform: uppercase;
 font-size: 14px;
-padding-bottom:	10px;
+padding-bottom: 10px;
 color: #212121;
 }
 
@@ -475,7 +473,7 @@ color: #212121;
 .pagina {
 display: block;
 width:  900px;
-border-bottom: 1px solid #bfbfbf;	
+border-bottom: 1px solid #bfbfbf;   
 margin: 0;
 margin-bottom: 50px;
 /*color: #c2c2c2;*/
@@ -490,14 +488,13 @@ text-align: right;
 
 /*footer do miolo*/
 .footermiolo {
-background-color: #4e1f5c;	
+background-color: #00324d;  
 padding-top: 25px;
 padding-bottom: 25px;
 font-family: Roboto-Regular;
 text-transform: uppercase;
 letter-spacing: 0.5px;
 font-size: 18px;
-position: relative;
 }
 
 footer a {
@@ -513,18 +510,6 @@ padding-right: 40px;
 float: right;
 padding-left: 40px; 
 }
-
-.navegacao {
-    color: white;
-    position: absolute;
-    top: 50%; left: 50%;
-    display: inline-block;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-}
-
 
 /*footer do inicio*/
 .footerinicio {
@@ -563,7 +548,7 @@ footer .footerinicio a {
 
 .entradasumario {
 margin-top: 70px;
-color: #4e1f5c;
+color: #00507a;
 }
 
 .entradasumario h1 {
@@ -579,7 +564,7 @@ float: right;
 display: inline-block;
 margin-top: 50px;
 text-decoration: none;
-color: #4e1f5c;
+color: #00507a;
 }
 
 .entradasumario a:hover {
@@ -645,50 +630,43 @@ padding-top: 20px;
 font-size: 15px;
 }
 
-.box {
-border: 1px solid #000; 
-width: 100%;
-padding: 30px;
-font-size: 16px;
+.isbn table {
+border: 1px solid #000;
+margin-bottom: 5px;
+}
+
+.isbn td {
+vertical-align: super;
+padding: 15px;
+}
+
+.isbn p {
 font-weight: 300;
-align-items: left;
-margin-bottom: 0;
-}
-
-.box:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.isbn {
-    font-size: .9em;
-}
-
-.isbn .box {font-size: inherit; padding: 15px;}
-
-.isbn .box div:nth-of-type(1) { width: 50px; float: left;}
-.isbn .box div:nth-of-type(2) { width: calc(100% - 70px); float: right; text-align: left;}
-.isbn .box div p {margin-top: 0}
-
-.isbn h1{
-font-weight: normal;
-font-size: 18px;
-padding-bottom: 10px;
+line-height: 1.4em;
 }
 
 .isbn a {
-font-weight: 500;
-margin-top: 80px;
-text-decoration: none;
-font-size: inherit; 
-color: #4e1f5c;   
 word-break: break-all;
+color: #00507a;
 }
 
-.isbn a:hover {
-color: #000;
+.fichainiciar {
+    margin-top: 80px;
+    color: #00507a;
 }
+
+.fichainiciar a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fichainiciar a:hover {
+    color: #000;
+}
+
+
+
 
 
 
